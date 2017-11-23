@@ -1,0 +1,75 @@
+#loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #4CAF50; /* Blue */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    margin-top: 20%;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+#getUserDetails {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Saira Condensed ! important;
+    font-weight: 500 ! important;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 20%;
+}
+#error{
+	margin-top: 10%;
+	font-family: Saira Condensed ! important;
+    font-weight: 500 ! important;
+    font-size: 1.5em;
+    color: red;
+}
+.wrapper {
+    text-align: center;
+}
+.pagetitle{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Saira Condensed ! important;
+    font-weight: 700;
+    font-size: 4em;
+    padding: 5%;
+}
+.userDetailsalign{
+	text-align: center;
+}
+.userDetailsalign, .feeddatadisplay, .feeddatadisplaybold{
+	font-family: Saira Condensed ! important;
+    font-weight: 400;
+    font-size: 2em;
+}
+.feeddatadisplaybold{
+	font-weight: 700;
+}
+.feeddatadisplay, .feeddatadisplaybold{
+	text-align: left;
+}
+#goBack{
+	background-color: #4CAF50;
+	font-family: Saira Condensed;
+    font-weight: 500;
+    font-size: 1.5em;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
